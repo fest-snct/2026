@@ -57,7 +57,7 @@ include './includes/stores_array.php';
                         企画名
                     </div>
                 </div>
-                <img src="<?= htmlspecialchars($site_config['base_path'] . 'images/store_modal_placeholder.webp', ENT_QUOTES, 'UTF-8') ?>" id="modal_img" alt="企画名" /><br>
+                <img src="<?= htmlspecialchars($site_config['base_path'] . 'images/stores/store_modal_placeholder.webp', ENT_QUOTES, 'UTF-8') ?>" id="modal_img" alt="企画名" /><br>
                 <div id="modal_place">
                     場所
                 </div>
