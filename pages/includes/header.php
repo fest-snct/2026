@@ -18,7 +18,7 @@ $currentPage = $_SERVER['SCRIPT_NAME'];
 ?>
 <header>
     <div class="mini_logo">
-        <img src="<?= $path_to_root ?>images/logo.webp" />
+        <img src="<?= $path_to_root ?>images/poster_icon_2026.webp" />
     </div>
     <div class="index">
         <a class="title" href="<?= $path_to_root ?>home.php"><?= htmlspecialchars($festival_label, ENT_QUOTES, 'UTF-8') ?></a>

@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         body.classList.toggle('is-menu-open');
 
         if (isOpening && !hasPlayedDrop) {
-            playOnceAnimation(drop);
+            playOnceAnimation(drop); // この２行を消すとドロップのアニメーションが止まる
             playOnceAnimation(wave);
             hasPlayedDrop = true;
         } else if (!isOpening) {

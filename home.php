@@ -44,7 +44,7 @@ $festival_label = $site_config['festival_label'];
     <header>
         <?php $currentPage = $_SERVER['SCRIPT_NAME']; ?>
         <div class="mini_logo">
-            <img src="./images/logo.webp" />
+            <img src="./images/poster_icon_2026.webp" />
         </div>
         <div class="index">
             <a class="title" href="<?= $base ?>home.php"><?= htmlspecialchars($festival_label, ENT_QUOTES, 'UTF-8') ?></a>
@@ -82,7 +82,7 @@ $festival_label = $site_config['festival_label'];
     </header>
     <main>
         <div class="main_logo">
-            <img src="./images/hp_icon.webp" alt="Main Image" />
+            <img src="./images/poster_yoko_2026.webp" alt="Main Image" />
         </div>
         <div class="border"></div>
         <div class="main_menu">
@@ -123,14 +123,14 @@ $festival_label = $site_config['festival_label'];
             <a href="./pages/greeting.php" class="about">詳しくはこちら</a>
         </div>
         <div class="border"></div>
-        <div class="main_menu">
+        <!--<div class="main_menu">
             <p class="main_menus">パンフレット</p>
             <div class="greetings_content">
                 <p>パンフレットをスマホからも見ることができます。</p>
             </div>
             <a href="./attachment/<?= htmlspecialchars($site_config['pamphlet_file'], ENT_QUOTES, 'UTF-8') ?>" class="about">パンフレットはこちら</a>
         </div>
-        <div class="border"></div>
+        <div class="border"></div>-->
         <div class="main_menu">
             <p class="main_menus">イベント</p>
             <div class="event_content">

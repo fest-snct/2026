@@ -66,9 +66,9 @@ header("Content-Security-Policy:
             </div>
             <?php $is_first_category = false; ?>
             <?php endforeach; ?>
-            <div class="border"></div>
+            <!--<div class="border"></div>
             <p class="title">タイムテーブル</p>
-            <img class="time-table" src="../images/time-table.webp" alt="タイムテーブル">
+            <img class="time-table" src="../images/time-table.webp" alt="タイムテーブル">-->
         </main>
     </div>
     <?php include './includes/footer.php'; ?>

@@ -43,24 +43,6 @@ include './includes/stores_array.php';
                 </figure>
             <?php endforeach; ?>
         </div>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1AdCwR54ykDFWf2BbVvn-gIcMFPRBe6w&ehbc=2E312F&noprof=1" width="640" height="480" class="googlemymap"></iframe>
-        <div class="border"></div>
-        <p class="b_title">教職員等の出展</p>
-        <div class="b_container">
-            <p class="b_name">たのしい？理科実験・体験教室</p>
-            <div class="b_info">出店場所：3-103</div>
-            <p class="b_name">卒業生との交流会</p>
-            <div class="b_info">出店場所：11-301</div>
-            <div class="b_info">※10月25日土曜のみ</div>
-            <p class="b_name">ホームカミングルーム</p>
-            <div class="b_info">出店場所：2-201</div>
-            <p class="b_name">入試相談ブース</p>
-            <div class="b_info">出店場所：2-202</div>
-            <p class="b_name">後援会バザー</p>
-            <div class="b_info">出店場所：ピロティ</div>
-            <p class="b_name">図書館</p>
-            <div class="b_info">出店場所：図書館</div>
-        </div>
     </main>
     <div id="modal" class="nodisp">
         <div id="modal_bg"></div>

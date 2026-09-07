@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100dvh; // 画面全体の高さ
-    background-color: #e0f7ff;
+    background-color: variables.$background-color;
     z-index: 900; // ヘッダー(100)より手前、トリガー(901)より後ろ
     overflow: visible;
 
@@ -135,7 +135,7 @@
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.5s ease;
-        transition-delay: 2s; // アニメーション終了後に表示されるようにする
+        //transition-delay: 2s; // アニメーション終了後に表示されるようにする
 
         & {
             display: flex;

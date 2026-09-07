@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   height: 100dvh;
-  background-color: #e0f7ff;
+  background-color: #ddfff2;
   z-index: 900;
   overflow: visible;
   opacity: 0;
@@ -97,7 +97,6 @@
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.5s ease;
-  transition-delay: 2s;
 }
 .hamburger-menu div.hamburger-menu__inner {
   display: flex;
@@ -353,7 +352,7 @@ footer div.footer-content div.subtitles div.SNS {
 }
 
 body {
-  background-color: #e0f7ff;
+  background-color: #ddfff2;
   overflow-y: auto;
   display: flex;
   flex-direction: column;

@@ -45,22 +45,7 @@ header("Content-Security-Policy:
             仙台市営バス 仙台高専広瀬キャンパス入口より徒歩5分
         </span>
         </div>
-        <div class="border"></div>
-        <div class="content_title">
-            <h3>シャトルバス</h3>
-        </div>
-        <div class="content_main">
-            <p>本校広瀬キャンパスとJR愛子駅を結ぶ無料シャトルバスを運行いたします。</p>
-            <a class="time" href="./access/shuttle_bus.php">時刻表はこちら</a>
-        </div>
-        <div class="border"></div>
-        <div class="content_title">
-            <h3>急行しらはぎ号</h3>
-        </div>
-        <div class="content_main center">
-            <img class="shirahagi" src="../images/sirahagi.webp" alt="急行しらはぎ号">
-            <a class="time" href="./news_article.php?slug=04">詳しくはこちら</a>
-        </div>
+        
     </main>
     <?php include_once './includes/footer.php'; ?>
 </body>
