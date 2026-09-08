@@ -1,26 +1,274 @@
 [
     {
-        "id": "jyunbityuu1",
-        "name": "準備中です",
+        "id": "01_sakadoubu",
+        "name": "茶華道部",
         "location": "",
-        "description": "",
-        "image": "prepareing.png",
+        "description": "無料でお茶と和菓子をおもてなしいたします。華道の展示会も行っているのでぜひ足を運んでくれると嬉しいです。",
+        "image": "01_sakadoubu.webp",
         "news_slug": null
     },
     {
-        "id": "jyunbityuu2",
-        "name": "準備中です",
+        "id": "02_gakuseitosyoiinnkai",
+        "name": "学生図書委員会",
         "location": "",
-        "description": "",
-        "image": "prepareing.png",
+        "description": "本図書館で不要となった蔵書のほか、地域の方々や仙台市広瀬図書館様が寄贈してくださった本の無償譲渡を行います。",
+        "image": "02_gakuseitosyoiinnkai.webp",
         "news_slug": null
     },
     {
-        "id": "jyunbityuu3",
-        "name": "準備中です",
+        "id": "03_aburasobahinnkouhousei",
+        "name": "油そばー品行方正",
+        "location": "",
+        "description": "品行方正な店員の作る安くてうまい油そばを堪能しよう！",
+        "image": "03_aburasobahinnkouhousei.webp",
+        "news_slug": null
+    },
+    {
+        "id": "04_suta-o-bakkusuko-hi-",
+        "name": "スターオーバックスコーヒー",
+        "location": "",
+        "description": "高専祭で休憩できるカフェを営業しています！コーヒーから、おいしいパンケーキまで様々な商品があります！ぜひお越しください！",
+        "image": "04_suta-o-bakkusuko-hi-.webp",
+        "news_slug": null
+    },
+    {
+        "id": "06_ouenndann",
+        "name": "応援団",
         "location": "",
         "description": "",
-        "image": "prepareing.png",
+        "image": "06_ouenndann.webp",
+        "news_slug": null
+    },
+    {
+        "id": "08_DTMbu",
+        "name": "DTM部",
+        "location": "",
+        "description": "DTM部は高専祭でDJライブを開催！ボカロやアニソンを楽しめるほか、オリジナルモクテルや部員制作CD「BIG WAVE」も販売します。ぜひお越しください！",
+        "image": "08_DTMbu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "09_ohbanndesu",
+        "name": "OH!判デス",
+        "location": "",
+        "description": "おばんです！OH!判デスでは、その名の通り大判焼きを提供します。あんこ以外の味もあります！トッピングもあります！このお菓子、みなさんは何と呼びますか？",
+        "image": "09_ohbanndesu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "10_kagakubu",
+        "name": "科学部",
+        "location": "",
+        "description": "過去の高専ロボコンに出場したマシンを展示しています。ロボットの操縦体験をすることもできます。",
+        "image": "10_kagakubu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "11_kuragefakutori-",
+        "name": "くらげファクトリー",
+        "location": "",
+        "description": "",
+        "image": "11_kuragefakutori-.webp",
+        "news_slug": null
+    },
+    {
+        "id": "12_samoriba",
+        "name": "さもりば",
+        "location": "",
+        "description": "北海道産タコを使った外サク中プリの「タコ唐揚」、香ばしい「焼き鳥」、極上な旨味広がる北海道産「牛串」！こだわり食材を揃えた自慢の逸品を、ぜひご賞味ください！",
+        "image": "12_samoriba.webp",
+        "news_slug": null
+    },
+    {
+        "id": "13_suikabukkusu",
+        "name": "準備中です",
+        "location": "",
+        "description": "電子工作、数学、クイズ、音声合成、アイドルなど、ジャンルを問わず好きなものを本にしています。無償頒布も用意しています！",
+        "image": "13_suikabukkusu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "14_puroguraminngubu",
+        "name": "プログラミング部",
+        "location": "",
+        "description": "ゲームや過去のプログラミングコンテスト出場作品など、部員による作品を展示しています。",
+        "image": "14_puroguraminngubu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "16_suurikagakuaikoukai",
+        "name": "数理科学愛好会",
+        "location": "",
+        "description": "様々な科学の実験を展示しております。広告で伝えきれない楽しさをぜひその目でご体験ください。",
+        "image": "16_suurikagakuaikoukai.webp",
+        "news_slug": null
+    },
+    {
+        "id": "17_mannpukusyateki",
+        "name": "まんぷく射的",
+        "location": "",
+        "description": "屋外で縁日を開催中！狙ったお菓子をゲットできる射的は、落とせなかったとしてもお菓子が入った箱から掴み取りで景品が貰えるので誰でも楽しめます！氷水で冷えたラムネ飲料も販売しています。ぜひお越しください！",
+        "image": "17_mannpukusyateki.webp",
+        "news_slug": null
+    },
+    {
+        "id": "18_1-2wataameyasann",
+        "name": "1-2わたあめやさん",
+        "location": "",
+        "description": "わたあめを売ります。",
+        "image": "18_1-2wataameyasann.webp",
+        "news_slug": null
+    },
+    {
+        "id": "19_seikyougakuseiiinnkai",
+        "name": "生協学生委員会",
+        "location": "",
+        "description": "生協学生委員会によるフランクフルト販売です。食べにきてください。",
+        "image": "19_seikyougakuseiiinnkai.webp",
+        "news_slug": null
+    },
+    {
+        "id": "21_nazotokiaikoukai",
+        "name": "謎解き愛好会",
+        "location": "",
+        "description": "初心者から上級者まで、みんなが楽しめる謎を用意して待っています！ 今年は様々な形式のコンテンツを準備していますので、ぜひお越しください！ #SNCT脱出",
+        "image": "21_nazotokiaikoukai.webp",
+        "news_slug": null
+    },
+    {
+        "id": "22_anntoredoukoukai",
+        "name": "アントレ同好会",
+        "location": "",
+        "description": "アントレ同好会初の高専祭出店では、電動モーターを内蔵した「ロケットホイールシューター」を使った射的風縁日を実施します。的を狙って倒すと、景品のお菓子を獲得できます。",
+        "image": "22_anntoredoukoukai.webp",
+        "news_slug": null
+    },
+    {
+        "id": "23_gurannmezonnkosen",
+        "name": "グランメゾンKosen",
+        "location": "",
+        "description": "高専祭2026の屋外広場でお待ちしております！ジューシーで本格的な絶品ホットドッグをぜひご堪能ください。",
+        "image": "23_gurannmezonnkosen.webp",
+        "news_slug": null
+    },
+    {
+        "id": "24_zikokouteikannzoufukukairo",
+        "name": "自己肯定感増幅回路",
+        "location": "",
+        "description": "盛れ②ﾈｲﾙﾁｯﾌﾟ♡ｷﾗ②しゅわ②ﾗﾒﾄﾞﾘﾝｸ☆とびきり可愛くPHOTO撮影★ とことんｶﾜｲｲ自分になって、あなたの自己肯定感ｱｹﾞてこ↑↑ 盛れてる私、最強じゃん？♡",
+        "image": "24_zikokouteikannzoufukukairo.webp",
+        "news_slug": null
+    },
+    {
+        "id": "25_suisougakubu",
+        "name": "吹奏楽部",
+        "location": "",
+        "description": "",
+        "image": "25_suisougakubu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "26_monodukurikennkyuukai",
+        "name": "ものづくり研究会",
+        "location": "",
+        "description": "【高専生の技術集めました】 プログラミング？電子回路？モデリング？ もちろん全部あります！去年に引き続き今年も出店致します！",
+        "image": "26_monodukurikennkyuukai.webp",
+        "news_slug": null
+    },
+    {
+        "id": "27_girlspop",
+        "name": "GIRLS POP",
+        "location": "",
+        "description": "3Dプリンター製チャーム・キーチェーンを展示，数量限定で販売します！ 🎀Girly ❤Gothic 👀Grunge 3つの世界観をお楽しみください！お待ちしています！",
+        "image": "27_girlspop.webp",
+        "news_slug": null
+    },
+    {
+        "id": "28_aburasoba",
+        "name": "油そば和野々木",
+        "location": "",
+        "description": "一度食べたら、もう止まらない！お好みでトッピングを加えて自分だけの味を楽しめます。高専祭ならではの一品を、ぜひこの機会にお召し上がりください！！！！！場所;広場　※なくなり次第終了",
+        "image": "28_aburasoba.webp",
+        "news_slug": null
+    },
+    {
+        "id": "30_gakuseikai",
+        "name": "学生会",
+        "location": "",
+        "description": "赤と白のストライプ柄の容器に入ったフライドポテトを大きく配置し、水彩風のやわらかいイラストで温かみを表現しています。商品名を目立つように中央へ配置することで視認性を高め、来場者の目を引き、食欲を喚起するデザインとなっています。",
+        "image": "30_gakuseikai.webp",
+        "news_slug": null
+    },
+    {
+        "id": "31_wapiko",
+        "name": "和Pico",
+        "location": "",
+        "description": "和洋パフェとクレープ、ラッシーパフェ過ぎて滅！",
+        "image": "31_wapiko.webp",
+        "news_slug": null
+    },
+    {
+        "id": "32_hshonndasyokudou",
+        "name": "H.S.ホンダ食堂",
+        "location": "",
+        "description": "焼き鳥丼と焼き鳥単品の販売をしています！！安さとおいしさを追求中。ライス単品販売も行っていますので、ほかの出店のお供にどうぞ！！",
+        "image": "32_hshonndasyokudou.webp",
+        "news_slug": null
+    },
+    {
+        "id": "33_burukyasuto",
+        "name": "ブルキャスト",
+        "location": "",
+        "description": "韓国で大人気の新感覚スイーツ「クロッフル」！外はサクッ、中はもちっとした食感が楽しめます。チョコオレオ・マンゴー・ブルーベリーの3種類を、1つ500円で販売します！",
+        "image": "33_burukyasuto.webp",
+        "news_slug": null
+    },
+    {
+        "id": "34_tamasennkeikousennsei",
+        "name": "たません系高専生",
+        "location": "",
+        "description": "名古屋名物「たません」を学園祭で販売します！手軽に楽しめるご当地グルメを、この機会にぜひご賞味ください。片手で食べられるので食べ歩きにもぴったりです！",
+        "image": "34_tamasennkeikousennsei.webp",
+        "news_slug": null
+    },
+    {
+        "id": "35_amatyuamusennbu",
+        "name": "アマチュア無線部",
+        "location": "",
+        "description": "無線に関する機材や展示などをしています！体験コーナーもあるので無線について気になっている方はぜひ見に来てネ",
+        "image": "35_amatyuamusennbu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "36_taiyakiya",
+        "name": "たい焼き屋けんすぃん",
+        "location": "",
+        "description": "香ばしい生地とあふれる餡が織りなす至高の甘み。一口で広がる極上の幸福感。その瞬間、心の中でつぶやく＿＿「たい焼き、正直舐めてました。」そして確信する、けんすぃんは別次元にうまい！！",
+        "image": "36_taiyakiya.webp",
+        "news_slug": null
+    },
+    {
+        "id": "38_isbegasu2",
+        "name": "",
+        "location": "",
+        "description": "",
+        "image": "38_isbegasu2.webp",
+        "news_slug": null
+    },
+    {
+        "id": "39_bare-bo-rubu",
+        "name": "バレーボール部",
+        "location": "",
+        "description": "メイド服の部員がトスする風船ボールをスパイクして的を倒す体験型ゲーム！経験や年齢を問わず安全に楽しめ、結果に応じた豪華景品をご用意。ご主人様・お嬢様のお越しをお待ちしております！",
+        "image": "39_bare-bo-rubu.webp",
+        "news_slug": null
+    },
+    {
+        "id": "40_kousennjyosipurojekuto",
+        "name": "高専女子プロジェクト",
+        "location": "",
+        "description": "高専女子プロジェクトでは、映えるエモいドリンクを販売します！また、フォトスポットや、活動内容を知っていただける展示もご用意しておりますので、ぜひお越しください！",
+        "image": "40_kousennjyosipurojekuto.webp",
         "news_slug": null
     }
 ]
