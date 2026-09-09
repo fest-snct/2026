@@ -70,6 +70,9 @@ main {
         div.fest_date p {
             font: bold;
             margin-left: 3rem;
+            span.ml15 {
+                margin-left: 1.5em;
+            }
         }
         div.access_content {
             width: 100%;

@@ -89,7 +89,7 @@ $festival_label = $site_config['festival_label'];
             <p class="main_menus">開催日時</p>
             <div class="fest_date">
                 <?php foreach ($site_config['dates'] as $d): ?>
-                <p><?= htmlspecialchars($d['label'] . '：' . $d['date'] . '　　' . $d['time'], ENT_QUOTES, 'UTF-8') ?></p>
+                <p><?= htmlspecialchars($d['label'] . '：' . $d['date'], ENT_QUOTES, 'UTF-8') ?><wbr><span class="ml15"><?= htmlspecialchars($d['time'], ENT_QUOTES, 'UTF-8') ?></span></p>
                 <?php endforeach; ?>
             </div>
             <p><?= htmlspecialchars($site_config['dates_note'], ENT_QUOTES, 'UTF-8') ?></p>
