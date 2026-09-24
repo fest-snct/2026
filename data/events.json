@@ -1,9 +1,23 @@
 [
     {
-        "category": "イベント企画",
-        "title": "準備中です",
-        "date": null,
-        "venue": null,
+        "category": "メインイベント",
+        "title": "ポケカ大会",
+        "date": "10月31日(土)/11月1日(日) 9:00-12:00",
+        "venue": "AL-B（8-303）",
+        "detail_slug": null
+    },
+    {
+        "category": "メインイベント",
+        "title": "デュエマ大会",
+        "date": "10月31日(土)/11月1日(日) 13:00-16:00",
+        "venue": "AL-B（8-303）",
+        "detail_slug": null
+    },
+    {
+        "category": "メインイベント",
+        "title": "スマブラ大会",
+        "date": "10月31日(土) 9:00-13:00",
+        "venue": "AL-A",
         "detail_slug": null
     }
 ]

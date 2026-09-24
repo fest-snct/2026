@@ -43,7 +43,7 @@
         "id": "06_ouenndann",
         "name": "応援団",
         "location": "",
-        "description": "",
+        "description": "美味しいお好み焼きを売ってます",
         "image": "06_ouenndann.webp",
         "news_slug": null
     },
@@ -83,7 +83,7 @@
         "id": "11_kuragefakutori-",
         "name": "くらげファクトリー",
         "location": "",
-        "description": "",
+        "description": "くらげファクトリーでは、キャンドルやキーホルダー、石鹸を自分好みに手作りできます。世界にひとつだけの作品を作ってみよう！",
         "image": "11_kuragefakutori-.webp",
         "news_slug": null
     },
@@ -97,7 +97,7 @@
     },
     {
         "id": "13_suikabukkusu",
-        "name": "スイカブックス",
+        "name": "スイカ書店",
         "location": "",
         "description": "電子工作、数学、クイズ、音声合成、アイドルなど、ジャンルを問わず好きなものを本にしています。無償頒布も用意しています！",
         "image": "13_suikabukkusu.webp",
