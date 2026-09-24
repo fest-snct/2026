@@ -1,1 +1,8 @@
 DirectoryIndex home.php
+
+<If "-f '/home/user/example.com/htpasswd/2026'">
+    AuthType Basic
+    AuthName "Require Authentication."
+    AuthUserFile /home/user/example.com/htpasswd/2026
+    Require valid-user
+</If>
