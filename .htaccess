@@ -1,1 +1,11 @@
 DirectoryIndex home.php
+
+<If "-f '/home/festsnct/fest-snct.jp/htpasswd/2026'">
+    AuthType Basic
+    AuthName "Require Authentication."
+    AuthUserFile /home/festsnct/fest-snct.jp/htpasswd/2026
+    Require valid-user
+</If>
+<FilesMatch "^\.(?!well-known)">
+    Require all denied
+</FilesMatch>

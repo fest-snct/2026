@@ -420,6 +420,9 @@ main div.main_menu div.fest_date p {
   font: bold;
   margin-left: 3rem;
 }
+main div.main_menu div.fest_date p span.ml15 {
+  margin-left: 1.5em;
+}
 main div.main_menu div.access_content {
   width: 100%;
 }

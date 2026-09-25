@@ -1,4 +1,4 @@
-name: Deploy to Sakura
+name: Deploy to Xserver
 
 on:
   push:
@@ -13,10 +13,10 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: fest-snct.sakura.ne.jp
-          username: fest-snct
-          key: ${{ secrets.SAKURA_SSH_KEY }}
+          host: festsnct.xsrv.jp
+          username: festsnct
+          key: ${{ secrets.XSERVER_SSH_KEY }}
           script: |
-            cd /home/fest-snct/www/2025
+            cd /home/festsnct/fest-snct.jp/public_html/2026
             git fetch origin
             git merge origin/main

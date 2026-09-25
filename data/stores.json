@@ -1,26 +1,26 @@
 [
     {
-        "id": "jyunbityuu1",
-        "name": "準備中です",
+        "id": "prepare1",
+        "name": "準備中",
         "location": "",
-        "description": "",
-        "image": "prepareing.png",
+        "description": "準備中です。",
+        "image": "prepareing.webp",
         "news_slug": null
     },
     {
-        "id": "jyunbityuu2",
-        "name": "準備中です",
+        "id": "prepare1",
+        "name": "準備中",
         "location": "",
-        "description": "",
-        "image": "prepareing.png",
+        "description": "準備中です。",
+        "image": "prepareing.webp",
         "news_slug": null
     },
     {
-        "id": "jyunbityuu3",
-        "name": "準備中です",
+        "id": "prepare1",
+        "name": "準備中",
         "location": "",
-        "description": "",
-        "image": "prepareing.png",
+        "description": "準備中です。",
+        "image": "prepareing.webp",
         "news_slug": null
     }
 ]
