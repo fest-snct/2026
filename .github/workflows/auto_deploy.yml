@@ -11,11 +11,12 @@ jobs:
 
     steps:
       - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.2.0
+        uses: appleboy/ssh-action@v1
         with:
           host: festsnct.xsrv.jp
           username: festsnct
           key: ${{ secrets.XSERVER_SSH_KEY }}
+          port: ${{ secrets.XSERVER_SSH_PORT }}
           script: |
             cd /home/festsnct/fest-snct.jp/public_html/2026
             git fetch origin

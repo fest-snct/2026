@@ -55,7 +55,7 @@ header("Content-Security-Policy: ".
                         <p>日程: <?= htmlspecialchars($event['date'], ENT_QUOTES, 'UTF-8') ?></p>
                         <?php endif; ?>
                         <?php if (!empty($event['detail_slug'])): ?>
-                        <a href="./event/<?= htmlspecialchars($event['detail_slug'], ENT_QUOTES, 'UTF-8') ?>.php" class="detail">詳細はこちら</a>
+                        <a href="./news_article.php?slug=<?= htmlspecialchars($event['detail_slug'], ENT_QUOTES, 'UTF-8') ?>" class="detail">詳細はこちら</a>
                         <?php endif; ?>
                         <?php if (!empty($event['image'])): ?>
                         <img src="../images/<?= htmlspecialchars($event['image'], ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($event['title'], ENT_QUOTES, 'UTF-8') ?>" class="poster-image">
