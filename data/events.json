@@ -4,20 +4,20 @@
         "title": "ポケカ大会",
         "date": "10月31日(土)/11月1日(日) 9:00-12:00",
         "venue": "AL-B（8-303）",
-        "detail_slug": null
+        "detail_slug": "03"
     },
     {
         "category": "メインイベント",
         "title": "デュエマ大会",
         "date": "10月31日(土)/11月1日(日) 13:00-16:00",
         "venue": "AL-B（8-303）",
-        "detail_slug": null
+        "detail_slug": "02"
     },
     {
         "category": "メインイベント",
         "title": "スマブラ大会",
         "date": "10月31日(土) 9:00-13:00",
-        "venue": "AL-A",
-        "detail_slug": null
+        "venue": "AL-A（4-205）",
+        "detail_slug": "04"
     }
 ]
