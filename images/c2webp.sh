@@ -11,4 +11,4 @@ find . -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) -print0
 
 done
 
-echo "変換とオリジナルファイルの削除が完了しました。"
+echo "変換が完了しました。"

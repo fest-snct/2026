@@ -16,6 +16,12 @@ if [ ${#xlsx_files[@]} -eq 0 ]; then
     exit 1
 fi
 
+if ! command -v unzip > /dev/null 2>&1; then
+    echo "\"nuzip\" が見つかりません"
+    echo "UbuntuまたはDebianを使用している場合は sudo apt install -y unzip でインストールできます"
+    exit 1
+fi
+
 for xlsx in "${xlsx_files[@]}"; do
     base="${xlsx%.*}"          # 拡張子を除いたファイル名
 
