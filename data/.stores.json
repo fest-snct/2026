@@ -1,0 +1,26 @@
+[
+    {
+        "id": "prepare1",
+        "name": "準備中",
+        "location": "",
+        "description": "準備中です。",
+        "image": "prepareing.webp",
+        "news_slug": null
+    },
+    {
+        "id": "prepare1",
+        "name": "準備中",
+        "location": "",
+        "description": "準備中です。",
+        "image": "prepareing.webp",
+        "news_slug": null
+    },
+    {
+        "id": "prepare1",
+        "name": "準備中",
+        "location": "",
+        "description": "準備中です。",
+        "image": "prepareing.webp",
+        "news_slug": null
+    }
+]
