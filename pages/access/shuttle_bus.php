@@ -99,12 +99,12 @@ header("Content-Security-Policy: ".
                             <td class="td_center"></td>
                             <td class="td_center"></td>
                             <td class="td_center"></td>
-                            <td class="td_right">55</td>
+                            <td class="td_right"></td>
                         </tr>
                             <tr class="tr_stripe">
                             <td class="td_hour">13</td>
                             <td class="td_left"></td>
-                            <td class="td_center"></td>
+                            <td class="td_center">10</td>
                             <td class="td_center"></td>
                             <td class="td_center">30</td>
                             <td class="td_center"></td>
@@ -219,8 +219,8 @@ header("Content-Security-Policy: ".
                         </tr>
                         <tr class="tr_stripe">
                             <td class="td_hour">15</td>
-                            <td class="td_left"></td>
-                            <td class="td_center">10</td>
+                            <td class="td_left">05</td>
+                            <td class="td_center"></td>
                             <td class="td_center"></td>
                             <td class="td_center"><span class="mark">35</span></td>
                             <td class="td_center"></td>

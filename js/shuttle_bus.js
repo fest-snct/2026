@@ -5,9 +5,9 @@
 // bus_time_to_kosen -> 高専行きのバスの時刻
 // fest_date -> 高専祭の開催日
 
-const bus_time_to_kosen = ["9:10__", "9:45", "10:35", "11:25", "12:10", "12:55", "13:30"];
-const bus_time_to_ayasi = ["12:40", "13:15", "13:50", "14:35", "15:10", "15:35_", "16:10_"];
-const fest_date = ["2025-10-25", "2025-10-26"];
+const bus_time_to_kosen = ["9:10__", "9:45", "10:35", "11:25", "12:10", "13:10", "13:30"];
+const bus_time_to_ayasi = ["12:40", "13:15", "13:50", "14:35", "15:05", "15:35_", "16:10_"];
+const fest_date = ["2026-10-31", "2025-11-01"];
 
 // これより下は編集しないでください
 // ########################################################################################
@@ -108,7 +108,7 @@ function refresh() {
         }
         if (is_fest == -1) {
             wrp.setAttribute("class", "disp_none");
-            bustime.innerText = "「次のシャトルバス」は高専祭当日のみご利用いただけます。";
+            bustime.innerText = "高専祭当日は、次に発車するバスの時間をこのページで確認できます。";
             bustime.removeAttribute("class");
         } else if (is_fest == 1) {
             wrp.setAttribute("class", "disp_none");
