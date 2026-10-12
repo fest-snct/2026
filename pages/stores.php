@@ -43,6 +43,24 @@ include './includes/stores_array.php';
                 </figure>
             <?php endforeach; ?>
         </div>
+        <div class="border"></div>
+        <p class="b_title">教職員等の出展</p>
+        <div class="b_container">
+            <p class="b_name">ホームカミングルーム</p>
+            <div class="b_info">出店場所：2-201</div>
+            <p class="b_name">入試相談コーナー</p>
+            <div class="b_info">出店場所：2-202</div>
+            <p class="b_name">寮の紹介</p>
+            <div class="b_info">出店場所：2-202</div>
+            <p class="b_name">とうほくプロコン応援 こども創造フェス</p>
+            <div class="b_info">出店場所：6-101</div>
+            <p class="b_name">体験コーナー</p>
+            <div class="b_info">出店場所：6-201</div>
+            <p class="b_name">コース紹介コーナー</p>
+            <div class="b_info">出店場所：6-209</div>
+            <p class="b_name">後援会ブース</p>
+            <div class="b_info">出店場所：ピロティ</div>
+        </div>
     </main>
     <div id="modal" class="nodisp">
         <div id="modal_bg"></div>
