@@ -465,6 +465,7 @@ main .time-table {
   margin: auto;
   margin-top: 1rem;
   max-width: 100%;
+  max-height: 90vh;
 }
 
 @media (max-width: 600px) {
@@ -476,4 +477,4 @@ main .time-table {
   img.poster-image {
     width: 50vw !important;
   }
-}
+}/*# sourceMappingURL=event.css.map */

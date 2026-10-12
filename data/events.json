@@ -1,6 +1,20 @@
 [
     {
         "category": "メインイベント",
+        "title": "ずんだもんショー",
+        "date": "10月31(土) 10:30-12:30",
+        "venue": "体育館",
+        "detail_slug": null
+    },
+    {
+        "category": "ミニイベント",
+        "title": "ずんだもんグリーティング",
+        "date": "11月1(日) 14:00-15:00",
+        "venue": "体育館",
+        "detail_slug": null
+    },
+    {
+        "category": "メインイベント",
         "title": "ポケカ大会",
         "date": "10月31日(土)/11月1日(日) 9:00-12:00",
         "venue": "AL-B（8-303）",
@@ -19,5 +33,68 @@
         "date": "10月31日(土) 9:00-13:00",
         "venue": "AL-A（4-205）",
         "detail_slug": "04"
+    },
+    {
+        "category": "常時開催イベント",
+        "title": "モニター設置&メタバース体験「It's mey!」",
+        "date": null,
+        "venue": "ピロティ",
+        "detail_slug": null
+    },
+    {
+        "category": "常時開催イベント",
+        "title": "ずんだもんグッズ販売",
+        "date": null,
+        "venue": "受付（ピロティ）",
+        "detail_slug": null
+    },
+    {
+        "category": "常時開催イベント",
+        "title": "カラオケ大会",
+        "date": null,
+        "venue": "屋外ステージ（広場）",
+        "detail_slug": null
+    },
+    {
+        "category": "ミニイベント",
+        "title": "モルック体験会",
+        "date": "10月31(土)/11月1(日) 9:30-13:00",
+        "venue": "校庭",
+        "detail_slug": null
+    },
+    {
+        "category": "演奏企画",
+        "title": "軽音楽部",
+        "date": "10月31(土) 13:00-17:00",
+        "venue": "体育館",
+        "detail_slug": null
+    },
+    {
+        "category": "演奏企画",
+        "title": "箏曲部",
+        "date": "11月1(日) 11:00-12:00",
+        "venue": "体育館",
+        "detail_slug": null
+    },
+    {
+        "category": "演奏企画",
+        "title": "校歌演奏企画",
+        "date": "11月1(日) 12:30-13:30",
+        "venue": "体育館",
+        "detail_slug": null
+    },
+    {
+        "category": "演奏企画",
+        "title": "吹奏楽部",
+        "date": "11月1(日) 12:30-13:30",
+        "venue": "体育館",
+        "detail_slug": null
+    },
+    {
+        "category": "演奏企画",
+        "title": "管打楽器アンサンブル",
+        "date": "11月1(日) 10:30-10:40",
+        "venue": "視聴覚室",
+        "detail_slug": null
     }
 ]
