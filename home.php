@@ -44,8 +44,8 @@ $festival_label = $site_config['festival_label'];
     <header>
         <?php $currentPage = $_SERVER['SCRIPT_NAME']; ?>
         <div class="mini_logo">
-            <a class="title" href="<?= $path_to_root ?>home.php">
-                <img src="<?= $path_to_root ?>images/poster_icon_2026.webp" />
+            <a class="title" href="./home.php">
+                <img src="./images/poster_icon_2026.webp" />
             </a>
         </div>
         <div class="index">
