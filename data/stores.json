@@ -11,7 +11,7 @@
         "id": "02_gakuseitosyoiinnkai",
         "name": "学生図書委員会",
         "location": "ピロティ",
-        "description": "本図書館で不要となった蔵書のほか、地域の方々や仙台市広瀬図書館様が寄贈してくださった本の無償譲渡を行います。",
+        "description": "本図書館で不要となった蔵書の無償譲渡を行います。",
         "image": "02_gakuseitosyoiinnkai.webp",
         "news_slug": null
     },
@@ -294,5 +294,13 @@
         "description": "高専女子プロジェクトでは、映えるエモいドリンクを販売します！また、フォトスポットや、活動内容を知っていただける展示もご用意しておりますので、ぜひお越しください！",
         "image": "40_kousennjyosipurojekuto.webp",
         "news_slug": null
+    },
+    {
+	"id": "41_keiongakubu",
+	"name": "軽音楽部",
+	"location": "体育館・合奏所",
+	"description": "10/31は体育館！11/11は合奏所で！軽音楽部が高専祭を盛り上げます！アツい演奏聞いてってください！",
+	"image": "41_keiongakubu.webp",
+	"news_slug": null
     }
 ]
