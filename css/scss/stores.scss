@@ -53,6 +53,24 @@ body {
             }
         }
 
+        div.map_container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+
+            img.image_map {
+                box-sizing: border-box;
+                flex: 0 1 auto;
+                margin: 1.25% 0%;
+                width: 100%;
+                max-width: min(80vw, 520px);
+            }
+        }
+
+
         div.border {
             width: 80vw;
             margin-top: 2rem;
