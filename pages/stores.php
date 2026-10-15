@@ -43,6 +43,22 @@ include './includes/stores_array.php';
                 </figure>
             <?php endforeach; ?>
         </div>
+        
+        <div class="border"></div>
+        <p class="b_title">出店マップ</p>
+        
+        <div class="b_container">
+            <p class="b_info">クリックまたはタップで画像を拡大できます。</p>
+        </div>
+        <div class="map_container">
+            <a href="../images/map.webp" target="_self">
+                <img src="../images/map66.webp" class="image_map" alt="全体の配置概図"/>
+            </a>
+            <a href="../images/detailmap-square.webp" target="_self">
+                <img src="../images/detailmap-square66.webp" class="image_map" alt="広場の配置概図"/>
+            </a>
+        </div>
+        
         <div class="border"></div>
         <p class="b_title">教職員等の出展</p>
         <div class="b_container">
@@ -62,6 +78,7 @@ include './includes/stores_array.php';
             <div class="b_info">出店場所：ピロティ</div>
         </div>
     </main>
+    <!--モダール構成部分-->
     <div id="modal" class="nodisp">
         <div id="modal_bg"></div>
         <div id="modal_inner">
