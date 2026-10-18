@@ -64,18 +64,25 @@ include './includes/stores_array.php';
         <div class="b_container">
             <p class="b_name">ホームカミングルーム</p>
             <div class="b_info">出店場所：2-201</div>
+            <div class="b_info">同窓会に関するパネルなどを展示します。</div>
             <p class="b_name">入試相談コーナー</p>
             <div class="b_info">出店場所：2-202</div>
+            <div class="b_info">入試に関する質問を受け付けます。</div>
             <p class="b_name">寮の紹介</p>
             <div class="b_info">出店場所：2-202</div>
+            <div class="b_info">寮に関する説明を行います。</div>
             <p class="b_name">とうほくプロコン応援 こども創造フェス</p>
             <div class="b_info">出店場所：6-101</div>
+            <div class="b_info">LEDやじろべえをはんだづけで作るワークショップを開催します。プログラミング部などの学生による作品展示もあります！</div>
             <p class="b_name">体験コーナー</p>
             <div class="b_info">出店場所：6-201</div>
+            <div class="b_info">簡単な電子工作 －たたいてピッカリ光るLED－の体験を行います。</div>
             <p class="b_name">コース紹介コーナー</p>
             <div class="b_info">出店場所：6-209</div>
+            <div class="b_info">広瀬キャンパスのコース紹介パネルを展示します。</div>
             <p class="b_name">後援会ブース</p>
             <div class="b_info">出店場所：ピロティ</div>
+            <div class="b_info">保護者や教職員から提供品を募ってバザーで販売します。</div>
         </div>
     </main>
     <!--モダール構成部分-->
