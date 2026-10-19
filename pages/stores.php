@@ -73,7 +73,7 @@ include './includes/stores_array.php';
             <div class="b_info">寮に関する説明を行います。</div>
             <p class="b_name">とうほくプロコン応援 こども創造フェス</p>
             <div class="b_info">出店場所：6-101</div>
-            <div class="b_info">LEDやじろべえをはんだづけで作るワークショップを開催します。プログラミング部などの学生による作品展示もあります！</div>
+            <div class="b_info">LEDやじろべえをはんだづけで作るワークショップを開催します。プログラミング部などの学生による作品展示もあります！なお、本ワークショップは、COOPトリプルカードみやぎスマイル基金の助成を受けて実施します。</div>
             <p class="b_name">体験コーナー</p>
             <div class="b_info">出店場所：6-201</div>
             <div class="b_info">簡単な電子工作 －たたいてピッカリ光るLED－の体験を行います。</div>
