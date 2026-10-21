@@ -1,4 +1,5 @@
-DirectoryIndex home.php
+#DirectoryIndex home.php
+#php脆弱性対策
 
 #<If "-f '/home/festsnct/fest-snct.jp/htpasswd/2026'">
 #    AuthType Basic
