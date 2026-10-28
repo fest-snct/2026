@@ -138,7 +138,7 @@ $festival_label = $site_config['festival_label'];
             <div class="event_content">
                 <?php foreach ($event_list as $event): ?>
                 <p>
-                    <a href="<?= htmlspecialchars($event['detail_slug'] ? './pages/event/' . $event['detail_slug'] . '.php' : './pages/event.php', ENT_QUOTES, 'UTF-8') ?>">
+                    <a href="<?= htmlspecialchars($event['detail_slug'] ? './pages/news_article.php?slug=' . $event['detail_slug'] : './pages/event.php', ENT_QUOTES, 'UTF-8') ?>">
                         <?= htmlspecialchars($event['title'], ENT_QUOTES, 'UTF-8') ?>
                     </a>
                 </p>
