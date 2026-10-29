@@ -617,7 +617,6 @@ img.profile-image {
 /* 軽音楽部ライブのお知らせ */
 .news_content .light-music-news {
   width: 100%;
-  max-width: 760px;
   min-width: 0;
   line-height: 1.8;
   overflow-wrap: anywhere;
@@ -639,4 +638,8 @@ img.profile-image {
 }
 .news_content .light-music-news td:nth-child(2) {
   text-align: left;
+}
+
+.news_content .light-music-news table {
+  max-width: 760px;
 }
