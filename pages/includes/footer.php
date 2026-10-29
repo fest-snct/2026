@@ -23,6 +23,7 @@ if (empty($path_to_root)) {
                 <a class="subtitle" href="<?= $path_to_root ?>pages/stores.php">出店一覧</a>
                 <a class="subtitle" href="<?= $path_to_root ?>pages/access.php">アクセス</a>
                 <a class="subtitle" href="<?= $path_to_root ?>pages/news.php">ニュース</a>
+                <a class="subtitle" href="<?= $path_to_root ?>pages/pamphlet.php">デジタルパンフレット</a>
                 <a class="subtitle" href="<?= $path_to_root ?>pages/Q&A.php">Q&A</a>
                 <a class="subtitle" href="<?= $path_to_root ?>pages/contact.php">お問い合わせ</a>
                 <a class="subtitle" href="<?= $path_to_root ?>pages/privacypolicy.php">プライバシーポリシー</a>

@@ -664,3 +664,31 @@ img.profile-image {
   width: 100%;
   height: auto;
 }
+
+
+/* デジタルパンフレット */
+.pamphlet-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.pamphlet-pages {
+  width: 100%;
+  min-width: 0;
+}
+.pamphlet-pages figure {
+  margin: 1.5rem 0 2.5rem;
+  scroll-margin-top: 100px;
+}
+.pamphlet-pages figcaption {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.pamphlet-pages img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}

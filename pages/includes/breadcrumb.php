@@ -15,6 +15,7 @@ function render_breadcrumb() {
         'stores'        => '出店一覧',
         'access'        => 'アクセス',
         'news'          => 'ニュース',
+        'pamphlet'      => 'デジタルパンフレット',
         'news_article'  => 'ニュース',
         'contact'       => 'お問い合わせ',
         'privacypolicy' => 'プライバシーポリシー',
