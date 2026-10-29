@@ -67,7 +67,7 @@
         "title": "軽音楽部",
         "date": "10月31(土) 13:00-17:00",
         "venue": "体育館",
-        "detail_slug": null
+        "detail_slug": "07"
     },
     {
         "category": "演奏企画",
@@ -102,6 +102,6 @@
         "title": "軽音楽部",
         "date": "11月1(日) 10:00-15:00",
         "venue": "合奏所",
-        "detail_slug": null
+        "detail_slug": "07"
     }
 ]

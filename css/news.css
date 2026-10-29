@@ -613,3 +613,30 @@ img.profile-image {
 .cosplay-poster-image {
   width: 80vw;
 }
+
+/* 軽音楽部ライブのお知らせ */
+.news_content .light-music-news {
+  width: 100%;
+  max-width: 760px;
+  min-width: 0;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.news_content .light-music-news h2 {
+  margin-top: 1.5em;
+}
+.news_content .light-music-news .timetable-image-link {
+  display: block;
+  max-width: 560px;
+}
+.news_content .light-music-poster {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.news_content .light-music-news td:first-child {
+  white-space: nowrap;
+}
+.news_content .light-music-news td:nth-child(2) {
+  text-align: left;
+}
