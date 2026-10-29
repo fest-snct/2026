@@ -35,7 +35,7 @@ header("Content-Security-Policy: ".
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($ogp_title, ENT_QUOTES, 'UTF-8') ?></title>
-    <link rel="stylesheet" href="../css/news.css" nonce="<?= htmlspecialchars($nonce, ENT_QUOTES, 'UTF-8') ?>">
+    <link rel="stylesheet" href="../css/news.css?v=<?= filemtime(__DIR__ . '/../css/news.css') ?>" nonce="<?= htmlspecialchars($nonce, ENT_QUOTES, 'UTF-8') ?>">
     <?php include __DIR__ . '/includes/header-favicon.php'; ?>
     <script src="../js/hamburger.js" nonce="<?= htmlspecialchars($nonce, ENT_QUOTES, 'UTF-8') ?>" defer></script>
 </head>
