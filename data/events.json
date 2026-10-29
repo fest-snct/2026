@@ -4,14 +4,14 @@
         "title": "ずんだもんショー",
         "date": "10月31(土) 10:30-12:30",
         "venue": "体育館",
-        "detail_slug": null
+        "detail_slug": "08"
     },
     {
         "category": "メインイベント",
         "title": "ずんだもんグリーティング",
         "date": "11月1(日) 13:30-15:00",
         "venue": "視聴覚室",
-        "detail_slug": null
+        "detail_slug": "08"
     },
     {
         "category": "メインイベント",
@@ -46,7 +46,7 @@
         "title": "ずんだもんグッズ販売",
         "date": null,
         "venue": "受付（ピロティ）",
-        "detail_slug": null
+        "detail_slug": "08"
     },
     {
         "category": "常時開催イベント",

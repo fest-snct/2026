@@ -643,3 +643,24 @@ img.profile-image {
 .news_content .light-music-news table {
   max-width: 760px;
 }
+
+
+/* ずんだもん関連イベントのお知らせ */
+.news_content .zundamon-news {
+  width: 100%;
+  min-width: 0;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.news_content .zundamon-news h2 {
+  margin-top: 1.5em;
+}
+.news_content .zundamon-poster-link {
+  display: block;
+  max-width: 560px;
+}
+.news_content .zundamon-poster {
+  display: block;
+  width: 100%;
+  height: auto;
+}
