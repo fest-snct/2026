@@ -1,6 +1,6 @@
-import { getDocument, GlobalWorkerOptions } from '../vendor/pdfjs/build/pdf.mjs';
+import { getDocument, GlobalWorkerOptions } from '../vendor/pdfjs/build/pdf.mjs?v=6.4.299-1';
 
-GlobalWorkerOptions.workerSrc = new URL('../vendor/pdfjs/build/pdf.worker.mjs', import.meta.url).href;
+GlobalWorkerOptions.workerSrc = new URL('../vendor/pdfjs/build/pdf.worker.mjs?v=6.4.299-1', import.meta.url).href;
 const viewer = document.querySelector('.pamphlet-pdf-viewer');
 const canvas = document.getElementById('pdf-canvas');
 const container = document.querySelector('.pdf-canvas-container');
