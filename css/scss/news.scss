@@ -323,3 +323,28 @@ img.profile-image {
   box-sizing: border-box;
   background: #fff;
 }
+
+.pamphlet-pdf-viewer {
+  height: auto;
+  min-height: 0;
+  background: #eee;
+}
+.pdf-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: #fff;
+}
+.pdf-toolbar button, .pdf-toolbar select {
+  font: inherit;
+  min-height: 40px;
+}
+#pdf-status { margin: 0.5rem 0.75rem; }
+.pdf-canvas-container {
+  width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+}
+#pdf-canvas { display: block; margin: 0 auto; }

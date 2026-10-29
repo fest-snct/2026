@@ -13,9 +13,10 @@ $nonce = base64_encode(random_bytes(16));
 $_SESSION['nonce'] = $nonce;
 header("Content-Security-Policy: ".
 "    default-src 'self';".
-"    script-src 'self' 'nonce-" . $nonce . "';".
+"    script-src 'self' 'wasm-unsafe-eval' 'nonce-" . $nonce . "';".
 "    style-src 'self' 'nonce-" . $nonce . "';".
-"    frame-src 'self';".
+"    worker-src 'self';".
+"    font-src 'self' blob: data:;".
 "    frame-ancestors 'none';"
 );
 ?>
@@ -28,6 +29,7 @@ header("Content-Security-Policy: ".
     <link rel="stylesheet" href="../css/news.css?v=<?= filemtime(__DIR__ . '/../css/news.css') ?>" nonce="<?= htmlspecialchars($nonce, ENT_QUOTES, 'UTF-8') ?>">
     <?php include __DIR__ . '/includes/header-favicon.php'; ?>
     <script src="../js/hamburger.js" nonce="<?= htmlspecialchars($nonce, ENT_QUOTES, 'UTF-8') ?>" defer></script>
+    <script type="module" src="../js/pamphlet-viewer.js?v=<?= filemtime(__DIR__ . '/../js/pamphlet-viewer.js') ?>" nonce="<?= htmlspecialchars($nonce, ENT_QUOTES, 'UTF-8') ?>"></script>
 </head>
 <body>
     <?php include __DIR__ . '/includes/header.php'; ?>
@@ -38,7 +40,18 @@ header("Content-Security-Policy: ".
             <div class="news_content pamphlet-content">
                 <p>校内マップや出店・イベント情報を掲載しています。ページ内のPDFビューアーでご覧いただけます。</p>
                 <p><a class="link" href="<?= htmlspecialchars($pdf_url, ENT_QUOTES, 'UTF-8') ?>">PDFを開く</a> ／ <a class="link" href="<?= htmlspecialchars($pdf_url, ENT_QUOTES, 'UTF-8') ?>" download>PDFをダウンロード</a></p>
-                <iframe class="pamphlet-pdf-viewer" src="<?= htmlspecialchars($pdf_url, ENT_QUOTES, 'UTF-8') ?>#toolbar=1&view=FitH" title="高専祭2026 デジタルパンフレット PDFビューアー"></iframe>
+                <section class="pamphlet-pdf-viewer" aria-label="PDFビューアー" data-pdf-url="<?= htmlspecialchars($pdf_url, ENT_QUOTES, 'UTF-8') ?>">
+                    <div class="pdf-toolbar">
+                        <button type="button" id="pdf-prev" disabled>前へ</button>
+                        <label>ページ <select id="pdf-page" disabled aria-label="表示ページ"></select></label>
+                        <span id="pdf-count"></span>
+                        <button type="button" id="pdf-next" disabled>次へ</button>
+                        <label>表示倍率 <select id="pdf-zoom" disabled><option value="fit">幅に合わせる</option><option value="1">100%</option><option value="1.5">150%</option><option value="2">200%</option></select></label>
+                    </div>
+                    <p id="pdf-status" role="status" aria-live="polite">PDFを読み込んでいます…</p>
+                    <div class="pdf-canvas-container"><canvas id="pdf-canvas" aria-label="パンフレットのページ"></canvas></div>
+                    <noscript>PDFビューアーにはJavaScriptが必要です。「PDFを開く」またはページ画像をご利用ください。</noscript>
+                </section>
                 <p>PDFが表示されない場合は「PDFを開く」、または下のページ画像をご利用ください。</p>
                 <h2>ページ画像で見る</h2>
                 <p>画像をタップすると拡大できます。</p>
