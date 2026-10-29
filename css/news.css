@@ -692,3 +692,18 @@ img.profile-image {
   border: 1px solid #ddd;
   box-sizing: border-box;
 }
+
+
+.news_content.pamphlet-content {
+  width: 100%;
+  min-width: 0;
+}
+.pamphlet-pdf-viewer {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  min-height: 480px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  background: #fff;
+}
