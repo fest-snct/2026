@@ -35,6 +35,7 @@ $site_config = [
     'sns' => [
         'x'         => 'https://x.com/Kosensai_Zitsui',
         'instagram' => 'https://www.instagram.com/hirosekousensai/',
+        'youtube'   => 'https://www.youtube.com/@festsnct',
     ],
 
     // ── パンフレット ─────────────────────────────────────────────

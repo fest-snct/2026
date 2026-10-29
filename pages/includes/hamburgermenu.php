@@ -19,5 +19,6 @@ $base = $site_config['base_path'];
         <a href="<?= $base ?>pages/privacypolicy.php" class="hamburger-menu__item">プライバシーポリシー</a>
         <a href="<?= htmlspecialchars($site_config['sns']['x'], ENT_QUOTES, 'UTF-8') ?>" class="hamburger-menu__item">X</a>
         <a href="<?= htmlspecialchars($site_config['sns']['instagram'], ENT_QUOTES, 'UTF-8') ?>" class="hamburger-menu__item">Instagram</a>
+        <a href="<?= htmlspecialchars($site_config['sns']['youtube'], ENT_QUOTES, 'UTF-8') ?>" class="hamburger-menu__item">YouTube</a>
     </div>
 </nav>

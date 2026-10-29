@@ -30,6 +30,7 @@ if (empty($path_to_root)) {
                 <div class="SNS">
                     <a class="subtitle" href="<?= htmlspecialchars($site_config['sns']['x'], ENT_QUOTES, 'UTF-8') ?>">X</a>
                     <a class="subtitle" href="<?= htmlspecialchars($site_config['sns']['instagram'], ENT_QUOTES, 'UTF-8') ?>">Instagram</a>
+                    <a class="subtitle" href="<?= htmlspecialchars($site_config['sns']['youtube'], ENT_QUOTES, 'UTF-8') ?>">YouTube</a>
                 </div>
             </div>
         </div>

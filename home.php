@@ -79,6 +79,7 @@ $festival_label = $site_config['festival_label'];
                 <a href="<?= $base ?>pages/privacypolicy.php" class="hamburger-menu__item">プライバシーポリシー</a>
                 <a href="<?= htmlspecialchars($site_config['sns']['x'], ENT_QUOTES, 'UTF-8') ?>" class="hamburger-menu__item">X</a>
                 <a href="<?= htmlspecialchars($site_config['sns']['instagram'], ENT_QUOTES, 'UTF-8') ?>" class="hamburger-menu__item">Instagram</a>
+                <a href="<?= htmlspecialchars($site_config['sns']['youtube'], ENT_QUOTES, 'UTF-8') ?>" class="hamburger-menu__item">YouTube</a>
             </div>
         </nav>
     </header>
@@ -188,6 +189,7 @@ $festival_label = $site_config['festival_label'];
                     <div class="SNS">
                         <a class="subtitle" href="<?= htmlspecialchars($site_config['sns']['x'], ENT_QUOTES, 'UTF-8') ?>">X</a>
                         <a class="subtitle" href="<?= htmlspecialchars($site_config['sns']['instagram'], ENT_QUOTES, 'UTF-8') ?>">Instagram</a>
+                        <a class="subtitle" href="<?= htmlspecialchars($site_config['sns']['youtube'], ENT_QUOTES, 'UTF-8') ?>">YouTube</a>
                     </div>
                 </div>
             </div>
